@@ -26,7 +26,14 @@ export const FormStyles = {
   },
   divFirstChild: {
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
+    gap: "20px",
+  },
+  pokemonRow: {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
   },
   divSecondChild: {
     display: "flex",
