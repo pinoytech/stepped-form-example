@@ -16,9 +16,8 @@ const Component2 = () => {
     formState: { errors },
   } = useForm({
     resolver: zodResolver(pokemonSchema),
-    mode: "onChange", // Enable validation on change
     defaultValues: {
-      pokemons: [{ name: "" }], // Start with one empty pokemon
+      pokemons: [{ name: "" }],
     },
   });
 
