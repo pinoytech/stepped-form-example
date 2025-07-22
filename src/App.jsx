@@ -2,7 +2,7 @@ import Form1 from "./Form1";
 import Form2 from "./Form2";
 import Form3 from "./Form3";
 import VisibilityContextProvider from "./contexts/VisibilityContextProvider";
-import { FormStyles } from "./Styles";
+import { FormStyles, MainStyles } from "./Styles";
 import { useVisibility } from "./hooks/useVisibility";
 
 const App = () => {
@@ -18,7 +18,7 @@ function Main() {
 
   return (
     <div>
-      <h1>Stepped Form</h1>
+      <h1 style={MainStyles.h1}>Stepped Form</h1>
       <div style={FormStyles.navigation}>
         <button onClick={() => setStep(1)} disabled={currentStep === 1}>
           1

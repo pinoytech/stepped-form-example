@@ -1,3 +1,11 @@
+export const MainStyles = {
+  h1: {
+    textAlign: "center",
+    color: "#333",
+    fontSize: "2rem",
+  },
+};
+
 export const FormStyles = {
   navigation: {
     display: "flex",
